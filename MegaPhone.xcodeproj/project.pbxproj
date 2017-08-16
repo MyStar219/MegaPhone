@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D316DDA1F37FD8400906F10 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D316DD91F37FD8400906F10 /* Global.swift */; };
+		C34217DF1F33608800016729 /* setting.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217DD1F33608800016729 /* setting.PNG */; };
+		C34217E41F33686900016729 /* amplifier.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217E01F33686900016729 /* amplifier.PNG */; };
+		C34217E51F33686900016729 /* radio_selected.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217E11F33686900016729 /* radio_selected.PNG */; };
+		C34217E61F33686900016729 /* step1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217E21F33686900016729 /* step1.PNG */; };
+		C34217E71F33686900016729 /* step2.png in Resources */ = {isa = PBXBuildFile; fileRef = C34217E31F33686900016729 /* step2.png */; };
+		C34217EF1F347EC000016729 /* allow.png in Resources */ = {isa = PBXBuildFile; fileRef = C34217EA1F347EC000016729 /* allow.png */; };
+		C34217F01F347EC000016729 /* check.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217EB1F347EC000016729 /* check.PNG */; };
+		C34217F11F347EC000016729 /* device.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217EC1F347EC000016729 /* device.PNG */; };
+		C34217F21F347EC000016729 /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = C34217ED1F347EC000016729 /* options.png */; };
+		C34217F31F347EC000016729 /* radio_unselected.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34217EE1F347EC000016729 /* radio_unselected.PNG */; };
+		C34712071F3DA6AD0095321B /* radio_selected_dark.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C34712041F3DA6AD0095321B /* radio_selected_dark.PNG */; };
+		C34712081F3DA6AD0095321B /* radio_unselected_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C34712051F3DA6AD0095321B /* radio_unselected_dark.png */; };
+		C34712091F3DA6AD0095321B /* setting_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C34712061F3DA6AD0095321B /* setting_dark.png */; };
+		C347120C1F3DBD730095321B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C347120B1F3DBD730095321B /* MediaPlayer.framework */; };
+		C35E9BA21F352DE600AB97D5 /* device_check.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C35E9B9F1F352DE600AB97D5 /* device_check.PNG */; };
+		C35E9BA31F352DE600AB97D5 /* ipad.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C35E9BA01F352DE600AB97D5 /* ipad.PNG */; };
+		C35E9BA41F352DE600AB97D5 /* iphone.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C35E9BA11F352DE600AB97D5 /* iphone.PNG */; };
+		C37B95921F32BDB800D54868 /* icon20.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B95851F32BDB800D54868 /* icon20.PNG */; };
+		C37B95931F32BDB800D54868 /* icon20@3x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B95861F32BDB800D54868 /* icon20@3x.PNG */; };
+		C37B95941F32BDB800D54868 /* icon29.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B95871F32BDB800D54868 /* icon29.PNG */; };
+		C37B95951F32BDB800D54868 /* icon29@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B95881F32BDB800D54868 /* icon29@2x.PNG */; };
+		C37B95961F32BDB800D54868 /* icon29@3x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B95891F32BDB800D54868 /* icon29@3x.PNG */; };
+		C37B95971F32BDB800D54868 /* icon40.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B958A1F32BDB800D54868 /* icon40.PNG */; };
+		C37B95981F32BDB800D54868 /* icon40@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B958B1F32BDB800D54868 /* icon40@2x.PNG */; };
+		C37B95991F32BDB800D54868 /* icon60@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B958C1F32BDB800D54868 /* icon60@2x.PNG */; };
+		C37B959A1F32BDB800D54868 /* icon60@3x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B958D1F32BDB800D54868 /* icon60@3x.PNG */; };
+		C37B959B1F32BDB800D54868 /* icon76.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B958E1F32BDB800D54868 /* icon76.PNG */; };
+		C37B959C1F32BDB800D54868 /* icon76@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B958F1F32BDB800D54868 /* icon76@2x.PNG */; };
+		C37B959D1F32BDB800D54868 /* icon83.5@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C37B95901F32BDB800D54868 /* icon83.5@2x.PNG */; };
+		C37B95A01F32BF2A00D54868 /* SpeakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B959F1F32BF2A00D54868 /* SpeakerViewController.swift */; };
+		C37B95A21F32BF4100D54868 /* SpeakerConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B95A11F32BF4100D54868 /* SpeakerConnectViewController.swift */; };
+		C37B95A41F32BFB400D54868 /* SpeakerSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B95A31F32BFB400D54868 /* SpeakerSettingViewController.swift */; };
+		C37B95A61F32C06000D54868 /* MicSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B95A51F32C06000D54868 /* MicSettingViewController.swift */; };
+		C37B95A91F32C0B800D54868 /* SpeakerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B95A81F32C0B800D54868 /* SpeakerDetailViewController.swift */; };
+		C37B95AD1F32C0DB00D54868 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B95AC1F32C0DB00D54868 /* InstructionViewController.swift */; };
+		C37B95AF1F32C0EC00D54868 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B95AE1F32C0EC00D54868 /* WatchViewController.swift */; };
+		C3E3ED8A1F3B3B9900BAC0A6 /* connect.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C3E3ED891F3B3B9900BAC0A6 /* connect.PNG */; };
+		C3E3ED8F1F3B467A00BAC0A6 /* speaker_dark.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C3E3ED8D1F3B467A00BAC0A6 /* speaker_dark.PNG */; };
+		C3E3ED901F3B467A00BAC0A6 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E3ED8E1F3B467A00BAC0A6 /* speaker.png */; };
+		C3F796041F32138E002E172F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F796031F32138E002E172F /* AppDelegate.swift */; };
+		C3F796061F32138E002E172F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F796051F32138E002E172F /* ViewController.swift */; };
+		C3F796091F32138F002E172F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F796071F32138F002E172F /* Main.storyboard */; };
+		C3F7960B1F32138F002E172F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F7960A1F32138F002E172F /* Assets.xcassets */; };
+		C3F7960E1F32138F002E172F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F7960C1F32138F002E172F /* LaunchScreen.storyboard */; };
+		C3F796191F32138F002E172F /* MegaPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F796181F32138F002E172F /* MegaPhoneTests.swift */; };
+		C3F796241F32138F002E172F /* MegaPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F796231F32138F002E172F /* MegaPhoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3F796151F32138F002E172F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3F795F81F32138E002E172F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F795FF1F32138E002E172F;
+			remoteInfo = MegaPhone;
+		};
+		C3F796201F32138F002E172F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3F795F81F32138E002E172F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F795FF1F32138E002E172F;
+			remoteInfo = MegaPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D316DD91F37FD8400906F10 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C34217DD1F33608800016729 /* setting.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting.PNG; path = Assets.xcassets/setting.PNG; sourceTree = "<group>"; };
+		C34217E01F33686900016729 /* amplifier.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amplifier.PNG; path = Assets.xcassets/amplifier.PNG; sourceTree = "<group>"; };
+		C34217E11F33686900016729 /* radio_selected.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_selected.PNG; path = Assets.xcassets/radio_selected.PNG; sourceTree = "<group>"; };
+		C34217E21F33686900016729 /* step1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = step1.PNG; path = Assets.xcassets/step1.PNG; sourceTree = "<group>"; };
+		C34217E31F33686900016729 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = step2.png; path = Assets.xcassets/step2.png; sourceTree = "<group>"; };
+		C34217EA1F347EC000016729 /* allow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = allow.png; path = Assets.xcassets/allow.png; sourceTree = "<group>"; };
+		C34217EB1F347EC000016729 /* check.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.PNG; path = Assets.xcassets/check.PNG; sourceTree = "<group>"; };
+		C34217EC1F347EC000016729 /* device.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = device.PNG; path = Assets.xcassets/device.PNG; sourceTree = "<group>"; };
+		C34217ED1F347EC000016729 /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = options.png; path = Assets.xcassets/options.png; sourceTree = "<group>"; };
+		C34217EE1F347EC000016729 /* radio_unselected.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_unselected.PNG; path = Assets.xcassets/radio_unselected.PNG; sourceTree = "<group>"; };
+		C34712041F3DA6AD0095321B /* radio_selected_dark.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_selected_dark.PNG; path = Assets.xcassets/radio_selected_dark.PNG; sourceTree = "<group>"; };
+		C34712051F3DA6AD0095321B /* radio_unselected_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_unselected_dark.png; path = Assets.xcassets/radio_unselected_dark.png; sourceTree = "<group>"; };
+		C34712061F3DA6AD0095321B /* setting_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting_dark.png; path = Assets.xcassets/setting_dark.png; sourceTree = "<group>"; };
+		C347120B1F3DBD730095321B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C35E9B9F1F352DE600AB97D5 /* device_check.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = device_check.PNG; path = Assets.xcassets/device_check.PNG; sourceTree = "<group>"; };
+		C35E9BA01F352DE600AB97D5 /* ipad.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad.PNG; path = Assets.xcassets/ipad.PNG; sourceTree = "<group>"; };
+		C35E9BA11F352DE600AB97D5 /* iphone.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.PNG; path = Assets.xcassets/iphone.PNG; sourceTree = "<group>"; };
+		C37B95851F32BDB800D54868 /* icon20.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon20.PNG; path = Assets.xcassets/icon20.PNG; sourceTree = "<group>"; };
+		C37B95861F32BDB800D54868 /* icon20@3x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon20@3x.PNG"; path = "Assets.xcassets/icon20@3x.PNG"; sourceTree = "<group>"; };
+		C37B95871F32BDB800D54868 /* icon29.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon29.PNG; path = Assets.xcassets/icon29.PNG; sourceTree = "<group>"; };
+		C37B95881F32BDB800D54868 /* icon29@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon29@2x.PNG"; path = "Assets.xcassets/icon29@2x.PNG"; sourceTree = "<group>"; };
+		C37B95891F32BDB800D54868 /* icon29@3x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon29@3x.PNG"; path = "Assets.xcassets/icon29@3x.PNG"; sourceTree = "<group>"; };
+		C37B958A1F32BDB800D54868 /* icon40.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon40.PNG; path = Assets.xcassets/icon40.PNG; sourceTree = "<group>"; };
+		C37B958B1F32BDB800D54868 /* icon40@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon40@2x.PNG"; path = "Assets.xcassets/icon40@2x.PNG"; sourceTree = "<group>"; };
+		C37B958C1F32BDB800D54868 /* icon60@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon60@2x.PNG"; path = "Assets.xcassets/icon60@2x.PNG"; sourceTree = "<group>"; };
+		C37B958D1F32BDB800D54868 /* icon60@3x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon60@3x.PNG"; path = "Assets.xcassets/icon60@3x.PNG"; sourceTree = "<group>"; };
+		C37B958E1F32BDB800D54868 /* icon76.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon76.PNG; path = Assets.xcassets/icon76.PNG; sourceTree = "<group>"; };
+		C37B958F1F32BDB800D54868 /* icon76@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon76@2x.PNG"; path = "Assets.xcassets/icon76@2x.PNG"; sourceTree = "<group>"; };
+		C37B95901F32BDB800D54868 /* icon83.5@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon83.5@2x.PNG"; path = "Assets.xcassets/icon83.5@2x.PNG"; sourceTree = "<group>"; };
+		C37B959F1F32BF2A00D54868 /* SpeakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerViewController.swift; sourceTree = "<group>"; };
+		C37B95A11F32BF4100D54868 /* SpeakerConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerConnectViewController.swift; sourceTree = "<group>"; };
+		C37B95A31F32BFB400D54868 /* SpeakerSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerSettingViewController.swift; sourceTree = "<group>"; };
+		C37B95A51F32C06000D54868 /* MicSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicSettingViewController.swift; sourceTree = "<group>"; };
+		C37B95A81F32C0B800D54868 /* SpeakerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerDetailViewController.swift; sourceTree = "<group>"; };
+		C37B95AC1F32C0DB00D54868 /* InstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		C37B95AE1F32C0EC00D54868 /* WatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
+		C3E3ED891F3B3B9900BAC0A6 /* connect.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = connect.PNG; path = Assets.xcassets/connect.PNG; sourceTree = "<group>"; };
+		C3E3ED8D1F3B467A00BAC0A6 /* speaker_dark.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker_dark.PNG; path = Assets.xcassets/speaker_dark.PNG; sourceTree = "<group>"; };
+		C3E3ED8E1F3B467A00BAC0A6 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker.png; path = Assets.xcassets/speaker.png; sourceTree = "<group>"; };
+		C3F796001F32138E002E172F /* MegaPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F796031F32138E002E172F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3F796051F32138E002E172F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3F796081F32138F002E172F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3F7960A1F32138F002E172F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3F7960D1F32138F002E172F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3F7960F1F32138F002E172F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F796141F32138F002E172F /* MegaPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F796181F32138F002E172F /* MegaPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaPhoneTests.swift; sourceTree = "<group>"; };
+		C3F7961A1F32138F002E172F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F7961F1F32138F002E172F /* MegaPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F796231F32138F002E172F /* MegaPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaPhoneUITests.swift; sourceTree = "<group>"; };
+		C3F796251F32138F002E172F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3F795FD1F32138E002E172F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C347120C1F3DBD730095321B /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F796111F32138F002E172F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F7961C1F32138F002E172F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C347120A1F3DBD730095321B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C347120B1F3DBD730095321B /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C37B95801F32BCCA00D54868 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C37B959F1F32BF2A00D54868 /* SpeakerViewController.swift */,
+				C37B95A11F32BF4100D54868 /* SpeakerConnectViewController.swift */,
+				C37B95A31F32BFB400D54868 /* SpeakerSettingViewController.swift */,
+				C37B95A71F32C06600D54868 /* Setting */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C37B95811F32BCD600D54868 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D316DD91F37FD8400906F10 /* Global.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C37B95821F32BCDF00D54868 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C37B95831F32BCEC00D54868 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C37B95841F32BD4100D54868 /* images */,
+				C3F7960A1F32138F002E172F /* Assets.xcassets */,
+				C3F7960F1F32138F002E172F /* Info.plist */,
+			);
+			name = Resources;
+			path = MegaPhone;
+			sourceTree = "<group>";
+		};
+		C37B95841F32BD4100D54868 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C34712041F3DA6AD0095321B /* radio_selected_dark.PNG */,
+				C34712051F3DA6AD0095321B /* radio_unselected_dark.png */,
+				C34712061F3DA6AD0095321B /* setting_dark.png */,
+				C3E3ED8D1F3B467A00BAC0A6 /* speaker_dark.PNG */,
+				C3E3ED8E1F3B467A00BAC0A6 /* speaker.png */,
+				C3E3ED891F3B3B9900BAC0A6 /* connect.PNG */,
+				C35E9B9F1F352DE600AB97D5 /* device_check.PNG */,
+				C35E9BA01F352DE600AB97D5 /* ipad.PNG */,
+				C35E9BA11F352DE600AB97D5 /* iphone.PNG */,
+				C34217EA1F347EC000016729 /* allow.png */,
+				C34217EB1F347EC000016729 /* check.PNG */,
+				C34217EC1F347EC000016729 /* device.PNG */,
+				C34217ED1F347EC000016729 /* options.png */,
+				C34217EE1F347EC000016729 /* radio_unselected.PNG */,
+				C34217E01F33686900016729 /* amplifier.PNG */,
+				C34217E11F33686900016729 /* radio_selected.PNG */,
+				C34217E21F33686900016729 /* step1.PNG */,
+				C34217E31F33686900016729 /* step2.png */,
+				C34217DD1F33608800016729 /* setting.PNG */,
+				C37B95851F32BDB800D54868 /* icon20.PNG */,
+				C37B95861F32BDB800D54868 /* icon20@3x.PNG */,
+				C37B95871F32BDB800D54868 /* icon29.PNG */,
+				C37B95881F32BDB800D54868 /* icon29@2x.PNG */,
+				C37B95891F32BDB800D54868 /* icon29@3x.PNG */,
+				C37B958A1F32BDB800D54868 /* icon40.PNG */,
+				C37B958B1F32BDB800D54868 /* icon40@2x.PNG */,
+				C37B958C1F32BDB800D54868 /* icon60@2x.PNG */,
+				C37B958D1F32BDB800D54868 /* icon60@3x.PNG */,
+				C37B958E1F32BDB800D54868 /* icon76.PNG */,
+				C37B958F1F32BDB800D54868 /* icon76@2x.PNG */,
+				C37B95901F32BDB800D54868 /* icon83.5@2x.PNG */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C37B95A71F32C06600D54868 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C37B95A51F32C06000D54868 /* MicSettingViewController.swift */,
+				C37B95A81F32C0B800D54868 /* SpeakerDetailViewController.swift */,
+				C37B95AC1F32C0DB00D54868 /* InstructionViewController.swift */,
+				C37B95AE1F32C0EC00D54868 /* WatchViewController.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		C3F795F71F32138E002E172F = {
+			isa = PBXGroup;
+			children = (
+				C3F796021F32138E002E172F /* MegaPhone */,
+				C37B95831F32BCEC00D54868 /* Resources */,
+				C3F796171F32138F002E172F /* MegaPhoneTests */,
+				C3F796221F32138F002E172F /* MegaPhoneUITests */,
+				C3F796011F32138E002E172F /* Products */,
+				C347120A1F3DBD730095321B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3F796011F32138E002E172F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F796001F32138E002E172F /* MegaPhone.app */,
+				C3F796141F32138F002E172F /* MegaPhoneTests.xctest */,
+				C3F7961F1F32138F002E172F /* MegaPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3F796021F32138E002E172F /* MegaPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C3F796031F32138E002E172F /* AppDelegate.swift */,
+				C3F796051F32138E002E172F /* ViewController.swift */,
+				C3F796071F32138F002E172F /* Main.storyboard */,
+				C3F7960C1F32138F002E172F /* LaunchScreen.storyboard */,
+				C37B95811F32BCD600D54868 /* Models */,
+				C37B95821F32BCDF00D54868 /* Views */,
+				C37B95801F32BCCA00D54868 /* Controllers */,
+			);
+			path = MegaPhone;
+			sourceTree = "<group>";
+		};
+		C3F796171F32138F002E172F /* MegaPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3F796181F32138F002E172F /* MegaPhoneTests.swift */,
+				C3F7961A1F32138F002E172F /* Info.plist */,
+			);
+			path = MegaPhoneTests;
+			sourceTree = "<group>";
+		};
+		C3F796221F32138F002E172F /* MegaPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3F796231F32138F002E172F /* MegaPhoneUITests.swift */,
+				C3F796251F32138F002E172F /* Info.plist */,
+			);
+			path = MegaPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3F795FF1F32138E002E172F /* MegaPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F796281F32138F002E172F /* Build configuration list for PBXNativeTarget "MegaPhone" */;
+			buildPhases = (
+				C3F795FC1F32138E002E172F /* Sources */,
+				C3F795FD1F32138E002E172F /* Frameworks */,
+				C3F795FE1F32138E002E172F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MegaPhone;
+			productName = MegaPhone;
+			productReference = C3F796001F32138E002E172F /* MegaPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3F796131F32138F002E172F /* MegaPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F7962B1F32138F002E172F /* Build configuration list for PBXNativeTarget "MegaPhoneTests" */;
+			buildPhases = (
+				C3F796101F32138F002E172F /* Sources */,
+				C3F796111F32138F002E172F /* Frameworks */,
+				C3F796121F32138F002E172F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3F796161F32138F002E172F /* PBXTargetDependency */,
+			);
+			name = MegaPhoneTests;
+			productName = MegaPhoneTests;
+			productReference = C3F796141F32138F002E172F /* MegaPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3F7961E1F32138F002E172F /* MegaPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F7962E1F32138F002E172F /* Build configuration list for PBXNativeTarget "MegaPhoneUITests" */;
+			buildPhases = (
+				C3F7961B1F32138F002E172F /* Sources */,
+				C3F7961C1F32138F002E172F /* Frameworks */,
+				C3F7961D1F32138F002E172F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3F796211F32138F002E172F /* PBXTargetDependency */,
+			);
+			name = MegaPhoneUITests;
+			productName = MegaPhoneUITests;
+			productReference = C3F7961F1F32138F002E172F /* MegaPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3F795F81F32138E002E172F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = administrator;
+				TargetAttributes = {
+					C3F795FF1F32138E002E172F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L4PRQP43PK;
+						ProvisioningStyle = Manual;
+					};
+					C3F796131F32138F002E172F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3F795FF1F32138E002E172F;
+					};
+					C3F7961E1F32138F002E172F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3F795FF1F32138E002E172F;
+					};
+				};
+			};
+			buildConfigurationList = C3F795FB1F32138E002E172F /* Build configuration list for PBXProject "MegaPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3F795F71F32138E002E172F;
+			productRefGroup = C3F796011F32138E002E172F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3F795FF1F32138E002E172F /* MegaPhone */,
+				C3F796131F32138F002E172F /* MegaPhoneTests */,
+				C3F7961E1F32138F002E172F /* MegaPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3F795FE1F32138E002E172F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37B95921F32BDB800D54868 /* icon20.PNG in Resources */,
+				C37B95941F32BDB800D54868 /* icon29.PNG in Resources */,
+				C34712071F3DA6AD0095321B /* radio_selected_dark.PNG in Resources */,
+				C35E9BA31F352DE600AB97D5 /* ipad.PNG in Resources */,
+				C34217EF1F347EC000016729 /* allow.png in Resources */,
+				C34217DF1F33608800016729 /* setting.PNG in Resources */,
+				C3E3ED8F1F3B467A00BAC0A6 /* speaker_dark.PNG in Resources */,
+				C35E9BA21F352DE600AB97D5 /* device_check.PNG in Resources */,
+				C34217F21F347EC000016729 /* options.png in Resources */,
+				C37B95931F32BDB800D54868 /* icon20@3x.PNG in Resources */,
+				C3E3ED901F3B467A00BAC0A6 /* speaker.png in Resources */,
+				C3F7960E1F32138F002E172F /* LaunchScreen.storyboard in Resources */,
+				C34712091F3DA6AD0095321B /* setting_dark.png in Resources */,
+				C34712081F3DA6AD0095321B /* radio_unselected_dark.png in Resources */,
+				C37B959D1F32BDB800D54868 /* icon83.5@2x.PNG in Resources */,
+				C3E3ED8A1F3B3B9900BAC0A6 /* connect.PNG in Resources */,
+				C37B959B1F32BDB800D54868 /* icon76.PNG in Resources */,
+				C35E9BA41F352DE600AB97D5 /* iphone.PNG in Resources */,
+				C37B95951F32BDB800D54868 /* icon29@2x.PNG in Resources */,
+				C3F7960B1F32138F002E172F /* Assets.xcassets in Resources */,
+				C37B959A1F32BDB800D54868 /* icon60@3x.PNG in Resources */,
+				C34217F11F347EC000016729 /* device.PNG in Resources */,
+				C34217F31F347EC000016729 /* radio_unselected.PNG in Resources */,
+				C37B959C1F32BDB800D54868 /* icon76@2x.PNG in Resources */,
+				C34217E51F33686900016729 /* radio_selected.PNG in Resources */,
+				C37B95971F32BDB800D54868 /* icon40.PNG in Resources */,
+				C34217E41F33686900016729 /* amplifier.PNG in Resources */,
+				C3F796091F32138F002E172F /* Main.storyboard in Resources */,
+				C37B95991F32BDB800D54868 /* icon60@2x.PNG in Resources */,
+				C34217F01F347EC000016729 /* check.PNG in Resources */,
+				C37B95961F32BDB800D54868 /* icon29@3x.PNG in Resources */,
+				C34217E71F33686900016729 /* step2.png in Resources */,
+				C37B95981F32BDB800D54868 /* icon40@2x.PNG in Resources */,
+				C34217E61F33686900016729 /* step1.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F796121F32138F002E172F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F7961D1F32138F002E172F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F795FC1F32138E002E172F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37B95A01F32BF2A00D54868 /* SpeakerViewController.swift in Sources */,
+				C37B95A61F32C06000D54868 /* MicSettingViewController.swift in Sources */,
+				C37B95AD1F32C0DB00D54868 /* InstructionViewController.swift in Sources */,
+				C37B95A21F32BF4100D54868 /* SpeakerConnectViewController.swift in Sources */,
+				C3F796061F32138E002E172F /* ViewController.swift in Sources */,
+				C37B95AF1F32C0EC00D54868 /* WatchViewController.swift in Sources */,
+				C3F796041F32138E002E172F /* AppDelegate.swift in Sources */,
+				C37B95A41F32BFB400D54868 /* SpeakerSettingViewController.swift in Sources */,
+				8D316DDA1F37FD8400906F10 /* Global.swift in Sources */,
+				C37B95A91F32C0B800D54868 /* SpeakerDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F796101F32138F002E172F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F796191F32138F002E172F /* MegaPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F7961B1F32138F002E172F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F796241F32138F002E172F /* MegaPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3F796161F32138F002E172F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F795FF1F32138E002E172F /* MegaPhone */;
+			targetProxy = C3F796151F32138F002E172F /* PBXContainerItemProxy */;
+		};
+		C3F796211F32138F002E172F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F795FF1F32138E002E172F /* MegaPhone */;
+			targetProxy = C3F796201F32138F002E172F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3F796071F32138F002E172F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F796081F32138F002E172F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3F7960C1F32138F002E172F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F7960D1F32138F002E172F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3F796261F32138F002E172F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3F796271F32138F002E172F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F796291F32138F002E172F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = L4PRQP43PK;
+				INFOPLIST_FILE = MegaPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.MegaPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61596d0a-4a51-4443-975d-45d4c01ccad0";
+				PROVISIONING_PROFILE_SPECIFIER = "MegaPhone iOS Distribution";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3F7962A1F32138F002E172F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = L4PRQP43PK;
+				INFOPLIST_FILE = MegaPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.MegaPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61596d0a-4a51-4443-975d-45d4c01ccad0";
+				PROVISIONING_PROFILE_SPECIFIER = "MegaPhone iOS Distribution";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C3F7962C1F32138F002E172F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MegaPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.MegaPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MegaPhone.app/MegaPhone";
+			};
+			name = Debug;
+		};
+		C3F7962D1F32138F002E172F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MegaPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.MegaPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MegaPhone.app/MegaPhone";
+			};
+			name = Release;
+		};
+		C3F7962F1F32138F002E172F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MegaPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.MegaPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MegaPhone;
+			};
+			name = Debug;
+		};
+		C3F796301F32138F002E172F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MegaPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.MegaPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MegaPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3F795FB1F32138E002E172F /* Build configuration list for PBXProject "MegaPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F796261F32138F002E172F /* Debug */,
+				C3F796271F32138F002E172F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F796281F32138F002E172F /* Build configuration list for PBXNativeTarget "MegaPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F796291F32138F002E172F /* Debug */,
+				C3F7962A1F32138F002E172F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F7962B1F32138F002E172F /* Build configuration list for PBXNativeTarget "MegaPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F7962C1F32138F002E172F /* Debug */,
+				C3F7962D1F32138F002E172F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F7962E1F32138F002E172F /* Build configuration list for PBXNativeTarget "MegaPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F7962F1F32138F002E172F /* Debug */,
+				C3F796301F32138F002E172F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3F795F81F32138E002E172F /* Project object */;
+}
